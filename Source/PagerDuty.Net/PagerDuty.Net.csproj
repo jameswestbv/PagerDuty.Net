@@ -58,10 +58,13 @@
     <Compile Include="Models\Rollup.cs" />
     <Compile Include="Models\Service.cs" />
     <Compile Include="Models\SortDirection.cs" />
+    <Compile Include="Models\TriggerEvent.cs" />
+    <Compile Include="Models\TriggerEventResponse.cs" />
     <Compile Include="Models\TriggerSummaryData.cs" />
     <Compile Include="Models\User.cs" />
     <Compile Include="PagerDutyAPI.cs" />
     <Compile Include="PagerDutyAPIException.cs" />
+    <Compile Include="PagerDutyTriggerAPI.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

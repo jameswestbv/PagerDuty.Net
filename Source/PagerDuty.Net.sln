@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PagerDuty.Net", "PagerDuty.Net\PagerDuty.Net.csproj", "{6B2B9BD8-7490-4DA9-A18E-C864FFBF1BCA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PagerDuty.Net.Tests", "PagerDuty.Net.Tests\PagerDuty.Net.Tests.csproj", "{D49F6668-03F0-4CFC-9BC7-D2887E507506}"
@@ -11,6 +13,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{0D0090
 		.nuget\NuGet.exe = .nuget\NuGet.exe
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PagerDuty.Net.TestForm", "PagerDuty.Net.TestForm\PagerDuty.Net.TestForm.csproj", "{B7A4CEEE-B6FD-455C-BD9D-97301BE99108}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,6 +30,10 @@ Global
 		{D49F6668-03F0-4CFC-9BC7-D2887E507506}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D49F6668-03F0-4CFC-9BC7-D2887E507506}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D49F6668-03F0-4CFC-9BC7-D2887E507506}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7A4CEEE-B6FD-455C-BD9D-97301BE99108}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7A4CEEE-B6FD-455C-BD9D-97301BE99108}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7A4CEEE-B6FD-455C-BD9D-97301BE99108}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7A4CEEE-B6FD-455C-BD9D-97301BE99108}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

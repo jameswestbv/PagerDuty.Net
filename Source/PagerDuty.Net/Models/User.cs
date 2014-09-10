@@ -5,8 +5,10 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace PagerDuty.Net {
+    
     [Serializable()]
     public class User {
+
         public string id { get; set; }
         public string name { get; set; }
         public string email { get; set; }
@@ -17,6 +19,5 @@ namespace PagerDuty.Net {
         public string user_url { get; set; }
         public bool invitation_sent { get; set; }
         public bool marketing_opt_out { get; set; }
-
     }
 }
