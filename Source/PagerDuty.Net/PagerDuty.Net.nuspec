@@ -20,7 +20,7 @@
   <files>
 
     <file src="$OutputPath$\PagerDuty.Net.dll" target="lib" />
-    <file src="$OutputPath$\PagerDuty.Net..pdb" target="lib" />
+    <file src="$OutputPath$\PagerDuty.Net.pdb" target="lib" />
     
   </files>
 
