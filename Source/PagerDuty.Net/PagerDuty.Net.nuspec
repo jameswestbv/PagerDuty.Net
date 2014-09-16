@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package>
+  
+  <metadata>
+    
+    <id>PagerDuty.Net</id>
+    
+    <version>1.0.0.0</version>
+    
+    <authors>Brand View</authors>
+
+    <description>Pager Duty</description>
+
+    <dependencies>
+	  <dependency id="RestSharp" version="104.1" />
+    </dependencies>
+
+  </metadata>
+
+  <files>
+
+    <file src="$OutputPath$\PagerDuty.Net.dll" target="lib" />
+    <file src="$OutputPath$\PagerDuty.Net..pdb" target="lib" />
+    
+  </files>
+
+</package>
